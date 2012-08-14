@@ -12,7 +12,9 @@ $usr_link = "http://chaseclicks.com"; 		// url where real users are directed to
 $bot_link = "http://google.com"; 			// url where detected bots will be redirected
 
 //include the bot detection script to search user agent headers
-include ("bot_detection.php");
+include ("./inc/bots.php");
+//include the full path so you dont have to have multiple copies
+// eg. /home/user/sitename.com/public_html/inc/bots.php 
 
 
 //if enabled, log all actions for detecting new bots later

