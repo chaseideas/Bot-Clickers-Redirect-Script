@@ -1,7 +1,7 @@
 <?php
-//		Bot Clicker Redirect Script
-//			by Chase Ideas
-//		  www.chaseideas.com
+//	Bot Clicker Redirect Script
+//		by Chase Ideas
+//	  www.chaseideas.com
 
 
 //settings
